@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 5%;
+  z-index: 1000;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .logo {
+  margin-right: auto;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+
+.header .logoimg {
+  width: 64px;
+  height: 64px;
+}
+
+.header #menu a {
+  margin-left: 2rem;
+  font-size: 18px;
+  color: #10221b;
+}
+
+.header #menu a:hover {
+  color: #0080F5;
+}
+
+#menu-btn {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  margin-right: 20px;
+}
+
+#menu {
+  display: flex;
+  margin-right: 10px;
+}
+/* ------------end header------------ */
+
+/* prestasi start */
+.prestasi{
+  margin-top: 200px;
+}
+.prestasi .card-prestasi{
+  margin-bottom: 50px;
+}
+/* prestasi end */
+
+/* informasi jumbotron start*/
+.jumbotron {
+  background: linear-gradient(to right, #0082fa, #0098da2b);
+  height: 859px;
+  flex-shrink: 0;
+}
+
+.jumbotron .outer-text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 133px;
+}
+
+.jumbotron .outer-text .text {
+  width: 750px;
+  height: 383px;
+  flex-shrink: 0;
+  padding-left: 77px;
+  padding-top: 95px;
+}
+
+.jumbotron .outer-text .text .title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.jumbotron .outer-text .logo img {
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0;
+  margin-left: 30px;
+}
+/* end informasi jumbotron */
+
+/* start css tentang kami */
+.person {
+  flex-shrink: 0;
+  background: #fdfdfd;
+}
+.person .heading-pengurus {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 109px;
+}
+.person .card {
+  border-radius: 24px;
+  border: 2px solid #e6e6e6;
+  background: linear-gradient(180deg, #1476d1 29.98%, rgba(250, 250, 245, 0) 100%);
+}
+.person-card {
+  margin-top: 50px;
+}
+/* end css tentang kami */
+
+/* start css pengurus */
+.person-card a {
+  margin-bottom: 29px;
+  position: relative;
+  margin-top: 30px;
+}
+.person-card .plus{
+  margin-top: 65px;
+}
+.person-card .plus-card-kader{
+  margin-top: 103px;
+}
+.person-card .title-badan {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* end css pengurus */
+
+/* start css map */
+.informasi {
+  fill: #fff;
+  flex-shrink: 0;
+  margin-top: 100px;
+}
+.informasi .title-map {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 100px;
+}
+.informasi .outer-map {
+  display: flex;
+}
+
+.informasi .outer-map .desc-map {
+  width: 500px;
+  height: 229px;
+  flex-shrink: 0;
+  padding-top: 50px;
+}
+
+.informasi .outer-map .map {
+  width: 625px;
+  height: 565px;
+  flex-shrink: 0;
+  margin-top: -45px;
+  margin-left: 280px;
+}
+
+.informasi .outer-map .desc-map {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.informasi .outer-map .logo-media {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 230px;
+}
+
+.informasi .outer-map .logo-media img {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+/* end css map */
+
+/* more pengurus start */
+.person-harian {
+  margin-top: 50px;
+}
+.person-harian .judul {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 150px;
+}
+.person-harian .card {
+  border-radius: 24px;
+  border: 2px solid #e6e6e6;
+  background: linear-gradient(180deg, #1476d1 29.98%, rgba(250, 250, 245, 0) 100%);
+}
+.jabatan-person {
+  color: #777;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.name-person {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.div-row-card{
+  margin-bottom: 50px;
+}
+/* more pengurus end */
+
+/* footer */
+.footer {
+  background: linear-gradient(to left, #0094FF, #007CD738);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.footer .box-container {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 23px;
+  color: #fff;
+  padding: 4px 0;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.footer .logo {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  font-size: 46px;
+  /* margin-bottom: 1rem;  */
+}
+
+.footer .logo img {
+  width: 250px;
+  height: 250px;
+  margin-right: 1rem; 
+}
+
+.footer h1 {
+  color: #fff;
+  font-size: 36px;
+  margin: 0; 
+}
+
+.footer .box {
+  margin-left: 10px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.footer .box b{
+  margin-right: 40px;
+}
+
+.footer .box a img {
+  width: 36px;
+  height: 36px;
+}
+ 
+.footer .box-container .box b:hover {
+  color: #0080F5;
+}
+
+.footer .box-container .box a:hover {
+  color: #0080F5;
+}
+
+.footer .box-container .box .sosmed:hover {
+  color: #f9ff3c;
+}
+/* footer */
